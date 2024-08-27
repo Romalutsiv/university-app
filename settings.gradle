@@ -1,0 +1,6 @@
+rootProject.name = 'univer'
+include 'common'
+include 'auth-service'
+include 'schedule-service'
+include 'user-profile-service'
+
