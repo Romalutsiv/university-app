@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f107df2-e8a6-46cc-aeae-27bcdfcedbfc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/UniversityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/UniversityClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,7 +52,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "course-service",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "G:/Projects/univer/user-profile-service/src/main/resources",
+    "last_opened_file_path": "G:/Projects/univer/course-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\univer\course-service\src\main\resources" />
       <recent name="G:\Projects\univer\user-profile-service\src\main\resources" />
       <recent name="G:\Projects\univer\schedule-service\src\main\resources" />
       <recent name="G:\Projects\univer\common\src\main\resources" />
@@ -86,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724790329740</updated>
       <workItem from="1724790331294" duration="720000" />
-      <workItem from="1724849213014" duration="457000" />
+      <workItem from="1724849213014" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="Create Gradle multi module Spring Boot Webflux project.">
       <created>1724791003714</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724849614987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add mongoDB dependencies and create connection.">
+      <created>1724849955370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724849955370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +129,7 @@
     <MESSAGE value="Create Gradle multi module Spring Boot Webflux project." />
     <MESSAGE value="Add course service module." />
     <MESSAGE value="Add course and class models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add course and class models." />
+    <MESSAGE value="Add mongoDB dependencies and create connection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mongoDB dependencies and create connection." />
   </component>
 </project>
