@@ -17,6 +17,7 @@ public class UniversityClass {
     private String id;
     private int yearOfStudy;
     private String className;
-    private List<String> students;
+    private List<String> studentIds;
+    private String classTeacherId;
 
 }

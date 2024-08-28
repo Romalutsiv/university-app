@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f107df2-e8a6-46cc-aeae-27bcdfcedbfc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/service/impl/UniversityClassServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/UniversityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/model/UniversityClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/repository/UniversityClassRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/repository/UniversityClassRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/service/CourseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,6 +69,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.university.app.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Projects\univer\course-service\src\main\resources" />
       <recent name="G:\Projects\univer\user-profile-service\src\main\resources" />
@@ -88,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724790329740</updated>
       <workItem from="1724790331294" duration="720000" />
-      <workItem from="1724849213014" duration="791000" />
+      <workItem from="1724849213014" duration="4255000" />
     </task>
     <task id="LOCAL-00001" summary="Create Gradle multi module Spring Boot Webflux project.">
       <created>1724791003714</created>
@@ -118,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1724849955370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update models to documents.">
+      <created>1724850037085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850037085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create class repository.">
+      <created>1724850086214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850086214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create service layer.">
+      <created>1724850520062</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850520062</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +160,9 @@
     <MESSAGE value="Add course service module." />
     <MESSAGE value="Add course and class models." />
     <MESSAGE value="Add mongoDB dependencies and create connection." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mongoDB dependencies and create connection." />
+    <MESSAGE value="Update models to documents." />
+    <MESSAGE value="Create class repository." />
+    <MESSAGE value="Create service layer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create service layer." />
   </component>
 </project>
