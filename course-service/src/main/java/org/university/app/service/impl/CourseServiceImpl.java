@@ -2,8 +2,8 @@ package org.university.app.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.university.app.dto.CourseDto;
 import org.university.app.model.Course;
-import org.university.app.model.UniversityClass;
 import org.university.app.repository.CourseRepository;
 import org.university.app.service.CourseService;
 import org.university.app.service.UniversityClassService;
@@ -43,13 +43,48 @@ public class CourseServiceImpl implements CourseService {
     }
 
     @Override
-    public Mono<Course> createNewCourse(Course courseDto) {
-        return null;
+    public Mono<Course> createNewCourse(CourseDto courseRequest) {
+        return courseRepository.existsByCourseName(courseRequest.courseName())
+                .flatMap(exist -> {
+                    if (exist) return Mono.error(new RuntimeException("Course with name: " + courseRequest.courseName() + " is already exist!"));
+                    else {
+                        return Flux.fromIterable(courseRequest.classIds())
+                                .flatMap(universityClassService::findOneById)
+                                .collectList()
+                                .flatMap(universityClasses -> {
+                                    Course course = Course.builder()
+                                            .courseName(courseRequest.courseName())
+                                            .lectorId(courseRequest.lectorId())
+                                            .classes(universityClasses)
+                                            .build();
+
+                                    return courseRepository.save(course);
+                                });
+                    }
+                });
     }
 
     @Override
-    public Mono<Course> updateExistCourse(String id, Course courseDto) {
-        return null;
+    public Mono<Course> updateExistCourse(String id, CourseDto courseRequest) {
+        return findOneById(id)
+                .flatMap(existCourse -> {
+                    if (!id.equals(existCourse.getId()) && !existCourse.getId().equals(courseRequest.id())){
+                        return Mono.error(new RuntimeException("Ids doesn't matches!"));
+                    }
+                    if (existCourse.getCourseName().equals(courseRequest.courseName())){
+                        return update(existCourse, courseRequest);
+                    } else {
+                        return findOneByCourseName(courseRequest.courseName())
+                                .flatMap(course ->
+                                {
+                                    if (!course.getId().equals(existCourse.getId())) {
+                                        return update(existCourse, courseRequest);
+                                    } else {
+                                        return Mono.error(new RuntimeException("Course with present name is already exist!"));
+                                    }
+                                });
+                    }
+                });
     }
 
     @Override
@@ -57,4 +92,17 @@ public class CourseServiceImpl implements CourseService {
         return findOneById(id)
                 .flatMap(courseRepository::delete);
     }
+
+    private Mono<Course> update(Course existCourse, CourseDto courseDto){
+        return Flux.fromIterable(courseDto.classIds())
+                .flatMap(universityClassService::findOneById)
+                .collectList()
+                .flatMap(classes -> {
+                    existCourse.setCourseName(courseDto.courseName());
+                    existCourse.setLectorId(courseDto.lectorId());
+                    existCourse.setClasses(classes);
+                    return courseRepository.save(existCourse);
+                });
+    }
+
 }

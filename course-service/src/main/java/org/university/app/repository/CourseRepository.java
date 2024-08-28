@@ -10,4 +10,5 @@ public interface CourseRepository extends ReactiveMongoRepository<Course, String
     Flux<Course> findAllByClassesContaining(UniversityClass universityClass);
     Flux<Course> findAllByLectorId(String lectorId);
     Mono<Course> findByCourseName(String courseName);
+    Mono<Boolean> existsByCourseName(String courseName);
 }
