@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f107df2-e8a6-46cc-aeae-27bcdfcedbfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-service/src/main/java/org/university/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
@@ -23,7 +22,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2lFyshnPpZRgy5oZc4CwpRUr1ZB" />
@@ -42,24 +55,38 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "grade-service",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "G:/Projects/univer/user-profile-service/src/main/resources",
+    "last_opened_file_path": "G:/Projects/univer/course-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "e2804ea0b1a478a3f81b6132c5dfd78b",
+    "spring.configuration.checksum": "7e60a1b3ef33dc38db128c8888d75605",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.university.app.dto" />
+      <recent name="org.university.app.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\univer\course-service\src\main\resources" />
       <recent name="G:\Projects\univer\user-profile-service\src\main\resources" />
       <recent name="G:\Projects\univer\schedule-service\src\main\resources" />
       <recent name="G:\Projects\univer\common\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CourseServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="univer.course-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.university.app.CourseServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724790329740</updated>
       <workItem from="1724790331294" duration="720000" />
-      <workItem from="1724849213014" duration="60000" />
+      <workItem from="1724849213014" duration="6899000" />
     </task>
     <task id="LOCAL-00001" summary="Create Gradle multi module Spring Boot Webflux project.">
       <created>1724791003714</created>
@@ -79,7 +106,77 @@
       <option name="project" value="LOCAL" />
       <updated>1724791003714</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add course service module.">
+      <created>1724849333483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724849333483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add course and class models.">
+      <created>1724849614987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724849614987</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add mongoDB dependencies and create connection.">
+      <created>1724849955370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724849955370</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update models to documents.">
+      <created>1724850037085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850037085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create class repository.">
+      <created>1724850086214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850086214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create service layer.">
+      <created>1724850520062</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850520062</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update models.">
+      <created>1724853489961</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724853489961</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add repository methods.">
+      <created>1724853511606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724853511606</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update and implement services.">
+      <created>1724853543864</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724853543864</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add common module to course-service.">
+      <created>1724854048091</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724854048091</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +185,16 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create Gradle multi module Spring Boot Webflux project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Gradle multi module Spring Boot Webflux project." />
+    <MESSAGE value="Add course service module." />
+    <MESSAGE value="Add course and class models." />
+    <MESSAGE value="Add mongoDB dependencies and create connection." />
+    <MESSAGE value="Update models to documents." />
+    <MESSAGE value="Create class repository." />
+    <MESSAGE value="Create service layer." />
+    <MESSAGE value="Update models." />
+    <MESSAGE value="Add repository methods." />
+    <MESSAGE value="Update and implement services." />
+    <MESSAGE value="Add common module to course-service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add common module to course-service." />
   </component>
 </project>
