@@ -5,12 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f107df2-e8a6-46cc-aeae-27bcdfcedbfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/grade-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/config/GlobalErrorWebExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/exception/DocumentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/DateTimeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/route/TaskRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/handler/TaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TaskMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/AnswerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/StudentAnswers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/TaskOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/FillInTheBlankQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MatchingQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MultipleChoiceQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/StudentTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/AnswerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/impl/TaskServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +48,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Record" />
       </list>
     </option>
   </component>
@@ -51,38 +75,62 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "grade-service",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "G:/Projects/univer/course-service/src/main/resources",
+    "last_opened_file_path": "G:/Projects/univer/grade-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "7e60a1b3ef33dc38db128c8888d75605",
+    "spring.configuration.checksum": "8fa1c3b0f030a52ca7597e358a3499b0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.university.app.dto" />
       <recent name="org.university.app.service.impl" />
+      <recent name="org.university.app.dto" />
+      <recent name="org.university.app.model.questions" />
+      <recent name="org.university.app.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\univer\grade-service\src\main\resources" />
       <recent name="G:\Projects\univer\course-service\src\main\resources" />
       <recent name="G:\Projects\univer\user-profile-service\src\main\resources" />
       <recent name="G:\Projects\univer\schedule-service\src\main\resources" />
       <recent name="G:\Projects\univer\common\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GradeServiceApp">
     <configuration name="CourseServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="univer.course-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.university.app.CourseServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="univer.grade-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.university.app.GradeServiceApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +146,13 @@
       <updated>1724790329740</updated>
       <workItem from="1724790331294" duration="720000" />
       <workItem from="1724849213014" duration="6899000" />
+      <workItem from="1725353351346" duration="7461000" />
+      <workItem from="1725451925140" duration="771000" />
+      <workItem from="1725881827113" duration="68000" />
+      <workItem from="1726644901065" duration="61000" />
+      <workItem from="1726645030824" duration="2135000" />
+      <workItem from="1726737205170" duration="175000" />
+      <workItem from="1726745700479" duration="15044000" />
     </task>
     <task id="LOCAL-00001" summary="Create Gradle multi module Spring Boot Webflux project.">
       <created>1724791003714</created>
@@ -176,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724854048091</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Create grade service.">
+      <created>1725129258667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725129258667</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +257,31 @@
     <MESSAGE value="Add repository methods." />
     <MESSAGE value="Update and implement services." />
     <MESSAGE value="Add common module to course-service." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add common module to course-service." />
+    <MESSAGE value="Create grade service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create grade service." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/Clobal.java</url>
+          <line>36</line>
+          <properties class="org.university.app.config.Clobal">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.3.3/718dd00a6e14929b3894d738b40253f38df88c4d/spring-boot-autoconfigure-3.3.3-sources.jar!/org/springframework/boot/autoconfigure/web/reactive/error/DefaultErrorWebExceptionHandler.java</url>
+          <line>109</line>
+          <properties class="org.springframework.boot.autoconfigure.web.reactive.error.DefaultErrorWebExceptionHandler" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
