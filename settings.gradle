@@ -4,4 +4,5 @@ include 'auth-service'
 include 'schedule-service'
 include 'user-profile-service'
 include 'course-service'
+include 'grade-service'
 

@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/auth-service" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/course-service" />
+            <option value="$PROJECT_DIR$/grade-service" />
             <option value="$PROJECT_DIR$/schedule-service" />
             <option value="$PROJECT_DIR$/user-profile-service" />
           </set>
