@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import org.university.app.dto.TaskRequest;
+import org.university.app.dto.TaskResponse;
+import org.university.app.mapper.TaskMapper;
 import org.university.app.model.Task;
 import org.university.app.service.TaskService;
 import reactor.core.publisher.Flux;
@@ -17,22 +19,24 @@ import static org.springframework.http.MediaType.APPLICATION_JSON;
 public class TaskHandler {
 
     private final TaskService taskService;
+    private final TaskMapper taskMapper;
 
     public Mono<ServerResponse> getAllCourseTasks(ServerRequest request){
         String courseID = request.pathVariable("courseID");
-        Flux<Task> courseTasks = taskService.getCourseTasks(courseID);
+        Flux<TaskResponse> courseTasks = taskMapper.toTaskResponseFlux(taskService.getCourseTasks(courseID));
         return ServerResponse
                 .ok()
                 .contentType(APPLICATION_JSON)
-                .body(courseTasks, Task.class);
+                .body(courseTasks, TaskResponse.class);
     }
 
     public Mono<ServerResponse> getTask(ServerRequest request) {
         String id = request.pathVariable("taskID");
+        Mono<TaskResponse> task = taskMapper.toTaskResponseMono(taskService.getOneById(id));
         return ServerResponse
                 .ok()
                 .contentType(APPLICATION_JSON)
-                .body(taskService.getOneById(id), Task.class);
+                .body(task, TaskResponse.class);
     }
 
     public Mono<ServerResponse> deleteTask(ServerRequest request) {
@@ -44,8 +48,9 @@ public class TaskHandler {
     public Mono<ServerResponse> createNewTask(ServerRequest request) {
         Mono<TaskRequest> taskDtoMono = request.bodyToMono(TaskRequest.class);
         String courseId = request.pathVariable("courseID");
+        Mono<TaskResponse> task = taskMapper.toTaskResponseMono(taskService.createTask(taskDtoMono, courseId));
         return ServerResponse.ok()
-                .body(taskService.createTask(taskDtoMono, courseId), Task.class);
+                .body(task, TaskResponse.class);
     }
 
     public Mono<ServerResponse> updateTask(ServerRequest request) {
