@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f107df2-e8a6-46cc-aeae-27bcdfcedbfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/exception/CreateDocumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/util/DateTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/util/impl/DateTimeUtilImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/DateTimeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TestRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TestMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/TaskOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/repository/TestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/AnswerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/handler/TaskHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/handler/TaskHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TaskMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TaskMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TaskMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MultipleChoiceQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MultipleChoiceQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/resources/application.yaml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,30 +43,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;grade-service&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Projects/univer/grade-service/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8fa1c3b0f030a52ca7597e358a3499b0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -328,7 +283,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.3.3/718dd00a6e14929b3894d738b40253f38df88c4d/spring-boot-autoconfigure-3.3.3-sources.jar!/org/springframework/boot/autoconfigure/web/reactive/error/DefaultErrorWebExceptionHandler.java</url>
           <line>109</line>
-          <properties class="org.springframework.boot.autoconfigure.web.reactive.error.DefaultErrorWebExceptionHandler" method="&lt;init&gt;">
+
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
