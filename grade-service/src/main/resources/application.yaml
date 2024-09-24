@@ -6,3 +6,7 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/grade-service
       database: grade-service
+
+service:
+  urls:
+    course: "localhost:8081"

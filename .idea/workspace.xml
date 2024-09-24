@@ -5,34 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f107df2-e8a6-46cc-aeae-27bcdfcedbfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/config/GlobalErrorWebExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/exception/DocumentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/exception/CreateDocumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/university/app/util/impl/DateTimeUtilImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/DateTimeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/route/TaskRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/handler/TaskHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TaskMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/AnswerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/StudentAnswers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TestRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/dto/TestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TestMapperImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/TaskOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/TaskStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/FillInTheBlankQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MatchingQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MultipleChoiceQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/StudentTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/repository/TestRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/AnswerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/TaskService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/service/impl/TestServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/handler/TaskHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/handler/TaskHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/TaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TaskMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/mapper/impl/TaskMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MultipleChoiceQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/MultipleChoiceQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/java/org/university/app/model/questions/TestTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grade-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +43,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -71,39 +65,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "grade-service",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "G:/Projects/univer/grade-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "8fa1c3b0f030a52ca7597e358a3499b0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;grade-service&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Projects/univer/grade-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8fa1c3b0f030a52ca7597e358a3499b0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.university.app.exception" />
+      <recent name="org.university.app.mapper.impl" />
       <recent name="org.university.app.service.impl" />
       <recent name="org.university.app.dto" />
-      <recent name="org.university.app.model.questions" />
-      <recent name="org.university.app.model" />
+      <recent name="org.university.app.util.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Projects\univer\grade-service\src\main\resources" />
@@ -152,7 +147,9 @@
       <workItem from="1726644901065" duration="61000" />
       <workItem from="1726645030824" duration="2135000" />
       <workItem from="1726737205170" duration="175000" />
-      <workItem from="1726745700479" duration="15044000" />
+      <workItem from="1726745700479" duration="16570000" />
+      <workItem from="1726838191580" duration="9962000" />
+      <workItem from="1727166334498" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Create Gradle multi module Spring Boot Webflux project.">
       <created>1724791003714</created>
@@ -238,7 +235,56 @@
       <option name="project" value="LOCAL" />
       <updated>1725129258667</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create mongo connection, change port.">
+      <created>1726777357517</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777357517</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create task, answer and question models.">
+      <created>1726777415343</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777415343</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Create and implement task service.">
+      <created>1726777450854</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777450854</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create DocumentNotFoundException and GlobalErrorWebExceptionHandler.">
+      <created>1726777483774</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777483774</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create Task repository.">
+      <created>1726777523184</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777523184</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create Task mapper.">
+      <created>1726777541106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777541106</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create Task dto and router with handler.">
+      <created>1726777579388</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726777579388</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +304,14 @@
     <MESSAGE value="Update and implement services." />
     <MESSAGE value="Add common module to course-service." />
     <MESSAGE value="Create grade service." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create grade service." />
+    <MESSAGE value="Create mongo connection, change port." />
+    <MESSAGE value="Create task, answer and question models." />
+    <MESSAGE value="Create and implement task service." />
+    <MESSAGE value="Create DocumentNotFoundException and GlobalErrorWebExceptionHandler." />
+    <MESSAGE value="Create Task repository." />
+    <MESSAGE value="Create Task mapper." />
+    <MESSAGE value="Create Task dto and router with handler." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Task dto and router with handler." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
